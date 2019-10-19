@@ -1,0 +1,19 @@
+<NAMES> 
+	Maestro
+</NAMES>
+
+1: Networking protocols
+	Go over how to get a DHCP-assigned address
+	Write up the full process with regards to DNS query and processing by the browser/OS(?)
+2: HTML
+	Go over the HTML5 standards (see if there's a pocket primer sort of book)
+		What all DOCTYPES are there?
+		What is used more than the stupid list that he has, also here's his list:
+			His List: 
+				h1
+				br (line break)* 
+				hr (horizontal line)*
+				img alt="screenReaderText" src="" height="###" width="###"*
+				ul, ol
+				li 
+			* self-closing tags
