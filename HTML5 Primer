@@ -6,3 +6,7 @@ HTML5 Primer
 		<!DOCTYPE html> :: specifies html5 syntax
 		<p> :: paragraph. Sits somewhere around (equivalent to?) h4 in size, but not bold like the h tags are
 		<h1-h6> :: various levels of "heading." 1 is the largest, 6 is the smallest.
+
+Questions: 
+	What are all of the <input> types?
+		type="email" - what is considered a valid email address? Anything that's ACTUALLY a valid email address? Or only naive? 
