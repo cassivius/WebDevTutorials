@@ -5,29 +5,30 @@
 </head>
 
 <body>
-		<form>
-				First Name:	<input type="text"> <br>
-				Last Name:	<input type="text"> <br>
-				Email: <input type="email" required> <br> 
-				Password: <input type="password" minlength="10"> <br>
-				Birthday: <input type="date"> <br>
+		<form method="POST">
+				First Name:	<input type="text" name="firstname"> <br>
+				Last Name:	<input type="text" name="lastname"> <br>
+				Email: <input type="email" name="email" required> <br> 
+				Password: <input type="password" name="password" minlength="10"> <br>
+				Birthday: <input type="date" name="birthday" > <br>
 				Sex: <br>
-				<input type="radio" name="sex">Male<br>
-				<input type="radio" name="sex">Female<br>
-				<input type="radio" name="sex">Prefer Not To Disclose<br>
+				<input type="radio" name="sex" value="male">Male<br>
+				<input type="radio" name="sex" value="female">Female<br>
+				<input type="radio" name="sex" value="none">Prefer Not To Disclose<br>
 				Pets<br>
-				<input type="checkbox">Dogs<br>
-				<input type="checkbox">Cats<br>
-				<input type="checkbox">Sentient banana<br>
+				<input type="checkbox" name="dogs">Dogs<br>
+				<input type="checkbox" name="cats">Cats<br>
+				<input type="checkbox" name="sentientBanana">Sentient banana<br>
 
 				Cars: <br>
-				<select multiple>
-					<option value="volvo">Volvo</option>
-					<option value="audi">Audi</option>
-					<option value="mini">Mini</option>
+				<select name="cars" multiple>
+					<option value="volvo" name="volvo">Volvo</option>
+					<option value="audi" name="audi">Audi</option>
+					<option value="mini" name="mini">Mini</option>
 				</select> <br>
 				<input type="submit" value="Register">
 				<input type="reset">
 		</form>
 </body>
 </html>
+
